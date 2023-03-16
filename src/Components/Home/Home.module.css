@@ -1,8 +1,10 @@
 .container{
-    /* text-align: center; */
     height: 80vh;
-    width: 100%;
-    display: flex;
+    width: 83%;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    margin-left: auto;
+    /* background-color: rebeccapurple; */
+    padding: 3rem;
 }

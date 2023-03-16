@@ -1,0 +1,54 @@
+.box {
+  display: flex;
+  background-color: #d39301;
+  flex-basis: 32%;
+  height: 8rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.logo {
+  background-color: #845f00;
+  margin-right: 1rem;
+  padding: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2ece4;
+  border-radius: 4px;
+}
+
+.level {
+  display: flex;
+  font-size: 2.3rem;
+  position: relative;
+}
+
+.level .one {
+  color: #f2d16d;
+}
+
+.level .two {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.number {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.first {
+  background-color: #ebc36b;
+}

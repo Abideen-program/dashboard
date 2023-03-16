@@ -7,7 +7,6 @@ import {
   FaEllipsisH,
   FaCog,
   FaQuestionCircle,
-  Fa
 } from "react-icons/fa";
 
 import {FiLogOut} from 'react-icons/fi'

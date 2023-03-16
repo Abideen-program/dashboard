@@ -1,6 +1,6 @@
 import classes from "./Header.module.css";
 import avatar from "../../../assets/avatar.jpeg";
-import { FaBell, FaAngleDown } from "react-icons/fa";
+import { FaBell, FaSortDown } from "react-icons/fa";
 import Navigation from "../Navigations/Navigation";
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
           <div className={classes["image-container"]}>
             <img src={avatar} alt="the admin" />
           </div>
-          <FaAngleDown />
+          <FaSortDown />
         </div>
         <Navigation />
       </div>

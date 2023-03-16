@@ -1,0 +1,13 @@
+.fuel-chart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    margin: 3rem 0;
+}
+
+.one {
+    flex-basis: 47%;
+}

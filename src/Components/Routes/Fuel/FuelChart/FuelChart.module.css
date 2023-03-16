@@ -1,0 +1,60 @@
+.container {
+  padding-bottom: 3rem;
+}
+
+.bar {
+  /* width: 45%; */
+  height: 40rem;
+  background-color: #fff;
+  padding: 3rem 3rem 13rem;
+  border-radius: 7px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time button {
+  padding: 0.5rem 1.3rem;
+  margin-right: 1.5rem;
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background-color: #e1dfe0;
+  color: #020622;
+  cursor: pointer;
+}
+
+.time button:first-child {
+  color: #e1dfe0;
+  background-color: #020622;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.label h3{
+    font-size: 1.6rem;
+}
+
+.label h3 span{
+    font-size: 1rem;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter p{
+    margin-left: 0.6rem;
+}

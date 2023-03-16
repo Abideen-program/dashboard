@@ -1,5 +1,9 @@
+.container {
+    position: relative;
+}
+
 .overall {
-  width: 75%;
+  width: 80%;
   height: 6rem;
   background-color: #fff;
   display: flex;
@@ -30,4 +34,12 @@
   width: 100%;
   border-radius: 50%;
   display: block;
+}
+
+.navigation{
+    background-color: #010622;
+    color: #fff;
+    width: 25%;
+    position: absolute;
+    top: 0;
 }

@@ -30,10 +30,9 @@
   display: flex;
   align-items: center;
   color: #fff;
- 
 }
 
-.list a p{
+.list a p {
   margin-left: 1rem;
   font-weight: 400;
 }
@@ -42,13 +41,13 @@
   margin-top: 7rem;
 }
 
-.navigation .isactive{
-  background-color: #E7E5E6;
-  color: #F7D04B;
+.navigation .isactive {
+  background-color: #e7e5e6;
+  color: #f7d04b;
   padding: 0.7rem 0.6rem 0.7rem 2rem;
   border-radius: 4px;
 }
 
-.navigation .isactive p{
- color: #010622; 
+.navigation .isactive p {
+  color: #010622;
 }

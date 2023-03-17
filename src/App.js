@@ -8,6 +8,7 @@ import Water from "./Components/Routes/Water/Water";
 import FuelMonitoring from "./Components/Routes/FuelMonitoring/FuelMonitoring";
 import Chat from "./Components/Routes/Chat/Chat";
 import Request from "./Components/Routes/Request/Request";
+import Settings from "./Components/Routes/Settings/Settings";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -23,7 +24,7 @@ const App = () => {
         { path: "fuel", element: <FuelMonitoring /> },
         { path: "chat", element: <Chat /> },
         { path: "request", element: <Request /> },
-
+        { path: "settings", element: <Settings /> },
       ],
     },
   ]);

@@ -53,11 +53,11 @@ const Navigation = () => {
             </li>
             <li className={classes.list}>
               <FaCog />
-              <a href="face.com">Settings</a>
+              <NavLink to="settings">Settings</NavLink>
             </li>
             <li className={classes.list}>
               <FiLogOut />
-              <a href="face.com">Logout</a>
+              <NavLink to="/">Logout</NavLink>
             </li>
           </ul>
         </nav>

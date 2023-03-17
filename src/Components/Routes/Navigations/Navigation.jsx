@@ -29,7 +29,7 @@ const Navigation = () => {
             </li>
             <li className={classes.list}>
               <FaWallet />
-              <a href="face.com">Wallet</a>
+              <NavLink to="wallet">Wallet</NavLink>
             </li>
             <li className={classes.list}>
               <FaBolt />

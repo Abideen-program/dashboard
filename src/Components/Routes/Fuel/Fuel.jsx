@@ -1,5 +1,6 @@
-import FuelChart from "./FuelChart/FuelChart";
 import FuelDescription from "./FuelDescription/FuelDescription";
+import FuelChart from "./FuelChart/FuelChart";
+import FuelLine from "./FuelLine/FuelLine";
 import classes from "./Fuel.module.css";
 
 const Fuel = () => {
@@ -12,7 +13,7 @@ const Fuel = () => {
           <FuelChart />
         </div>
         <div className={classes.one}>
-          <FuelChart />
+          <FuelLine />
         </div>
       </div>
     </>

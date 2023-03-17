@@ -33,23 +33,23 @@ const Navigation = () => {
             </li>
             <li className={classes.list}>
               <FaBolt />
-              <a href="face.com">Prepaid Energy</a>
+              <NavLink to="Energy">Prepaid Energy</NavLink>
             </li>
             <li className={classes.list}>
               <FaTint />
-              <a href="face.com">Prepaid Water</a>
+              <NavLink to="water">Prepaid Water</NavLink>
             </li>
             <li className={classes.list}>
               <FaTint />
-              <a href="face.com">Fuel Monitoring</a>
+              <NavLink to="fuel">Fuel Monitoring</NavLink>
             </li>
             <li className={classes.list}>
               <FaEllipsisH />
-              <a href="face.com">Chat</a>
+              <NavLink to="chat">Chat</NavLink>
             </li>
             <li className={classes.list}>
               <FaQuestionCircle />
-              <a href="face.com">Request</a>
+              <NavLink to="request">Request</NavLink>
             </li>
             <li className={classes.list}>
               <FaCog />

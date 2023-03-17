@@ -1,4 +1,4 @@
-import {NavLink, Link} from 'react-router-dom'
+import { NavLink, Link } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 import {
   FaHome,
@@ -10,54 +10,107 @@ import {
   FaQuestionCircle,
 } from "react-icons/fa";
 
-import {FiLogOut} from 'react-icons/fi'
+import { FiLogOut } from "react-icons/fi";
 import classes from "./Navigation.module.css";
 
 const Navigation = () => {
   return (
     <>
       <div className={classes.navigation}>
-        <Link to='/' className={classes["logo-container"]}>
+        <Link to="/" className={classes["logo-container"]}>
           <img src={logo} alt="logo of the company" />
         </Link>
 
         <nav>
           <ul>
             <li className={classes.list}>
-              <FaHome />
-              <NavLink to="dashboard">Dashboard</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="dashboard"
+              >
+                <FaHome />
+                <p>Dashboard</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaWallet />
-              <NavLink to="wallet">Wallet</NavLink>
+              <NavLink
+                to="wallet"
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+              >
+                <FaWallet />
+                <p>Wallet</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaBolt />
-              <NavLink to="Energy">Prepaid Energy</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="Energy"
+              >
+                <FaBolt />
+                <p>Prepaid Energy</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaTint />
-              <NavLink to="water">Prepaid Water</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="water"
+              >
+                <FaTint />
+                <p>Prepaid Water</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaTint />
-              <NavLink to="fuel">Fuel Monitoring</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="fuel"
+              >
+                <FaTint />
+                <p>Fuel Monitoring</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaEllipsisH />
-              <NavLink to="chat">Chat</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="chat"
+              >
+                <FaEllipsisH />
+                <p>Chat</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaQuestionCircle />
-              <NavLink to="request">Request</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="request"
+              >
+                <FaQuestionCircle />
+                <p>Request</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FaCog />
-              <NavLink to="settings">Settings</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="settings"
+              >
+                <FaCog />
+                <p>Settings</p>
+              </NavLink>
             </li>
+
             <li className={classes.list}>
-              <FiLogOut />
-              <NavLink to="/">Logout</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? classes.isactive : "")}
+                to="/"
+              >
+                <FiLogOut />
+                <p>Logout</p>
+              </NavLink>
             </li>
           </ul>
         </nav>

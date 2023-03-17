@@ -1,3 +1,4 @@
+import {NavLink, Link} from 'react-router-dom'
 import logo from "../../../assets/logo.png";
 import {
   FaHome,
@@ -16,15 +17,15 @@ const Navigation = () => {
   return (
     <>
       <div className={classes.navigation}>
-        <div className={classes["logo-container"]}>
+        <Link to='/' className={classes["logo-container"]}>
           <img src={logo} alt="logo of the company" />
-        </div>
+        </Link>
 
         <nav>
           <ul>
             <li className={classes.list}>
               <FaHome />
-              <a href="face.com">Dashboard</a>
+              <NavLink to="dashboard">Dashboard</NavLink>
             </li>
             <li className={classes.list}>
               <FaWallet />

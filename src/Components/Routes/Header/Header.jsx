@@ -1,3 +1,4 @@
+import {Outlet} from 'react-router-dom'
 import classes from "./Header.module.css";
 import avatar from "../../../assets/avatar.jpeg";
 import { FaBell, FaSortDown } from "react-icons/fa";
@@ -16,6 +17,7 @@ const Header = () => {
         </div>
         <Navigation />
       </div>
+      <Outlet />
     </div>
   );
 };

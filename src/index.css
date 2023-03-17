@@ -16,3 +16,10 @@ body {
   width: 100%;
   background-color: #f1f1f9;
 }
+
+.container{
+  height: 80vh;
+  width: 83%;
+  margin-left: auto;
+  padding: 3rem;
+}
